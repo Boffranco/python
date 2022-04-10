@@ -1,0 +1,90 @@
+ejemplos de python 
+- cargar en la variable nombre un STRING desde teclado
+   nombre = input("ingrese su nombre ")
+- imprimir en pantalla
+   print("esto sale por pantalla " + nombre)
+
+- el condicional
+  if numero < 20:
+     print("el numero es menor que 20")
+  else:
+     print("el numero es mayor o igual a 20")
+     
+- el repite-mientras
+  while nro < 20:
+     print("vamos por " + nro)
+     nro = nro - 1
+
+- convertir a entero (int)
+  v_num = int(v_numero)
+
+- convertir a string 
+  a = str(v_num)
+
+============================================================
+7.- Write a Python program to get the volume of a sphere with radius R
+volume is 4/3 * pi * radius * radius * radius
+Sample outout:
+Enter the redius: 6
+The volume of the sphere is:  904.7786842338603
+
+8.- Write a Python program asking for Days, hours and minutes and convert all into seconds.
+Sample Output:
+enter the days: 0
+enter the hours: 2
+enter the minutes: 10
+
+For 0 days, 2 hours and 10 minutes are 7800 seconds.
+
+9.- Write a Python program that accepts an single-digit integer (n) and computes the value of n+nn+nnn.
+(suggestion: concatenate the input)
+Sample value of n is 5
+Expected Result : 615
+
+10.- Write a Python program which:
+a- ask the user for entering numbers and append them to a list.
+  until the user enters "end" to finish.
+b- count the number 4 in a given list.
+Sample output:
+Enter a number: 4
+Enter a number: 45
+Enter a number: 4
+Enter a number: 5
+Enter a number: 15
+Enter a number: 4
+Enter a number: end
+There are 3 instances of number 4.
+
+11.- Write a Python program to print all numbers greater than 500 from the "numbers" list. 
+Additionally it must print the count of numbers printed.
+Put the following list in the first line of your program:
+numbers = [
+    386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
+    399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+    815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
+    958,743, 527
+    ]
+
+Suggestion: create another list to contain the results.
+Sample output:
+the result are : [907, 823, 566, 597, 978, 615, 953, 758, 918, 566, 826, 866, 950, 626, 949, 687, 815, 512, 892, 894, 767, 553, 843, 831, 742, 717, 958, 743, 527]
+There are 29 numbers greater than 500.
+
+12.- Modify the previous program to show the numbers greater than an arbitrary number (input user)
+Sample output:
+Enter the number for comparision: 900
+the result are : [907, 978, 953, 918, 950, 949, 958]
+There are 7 numbers greater than 900.
+
+13.- Modify the previous program to stop the printing if any numbers that come after 237 in the sequence.
+Sample output:
+Enter the number to compare: 300
+the result is : [386, 462, 418, 907, 344, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
+    399, 758, 918]
+There are 17 numbers greater than 300 and before the 237 element.
+
+
+
+==========================
+
+***[check from 67]
