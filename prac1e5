@@ -1,0 +1,4 @@
+color_lista=[ "negro", "verde", "rosa", "rojo", "azul"]
+N= int  color_lista(1)
+m= int  color_lista(5)
+print ( n,m )
